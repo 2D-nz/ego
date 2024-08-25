@@ -1,6 +1,6 @@
 ---
 title: "Next Navigation VS React Router DOM"
-description: "Minha experiência usando a navegação de Next após estar acostumado com RRD AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+description: "Minha experiência usando a navegação de Next após estar acostumado com RRD"
 date: "2024-08-20"
 ---
 
