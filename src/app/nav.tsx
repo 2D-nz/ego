@@ -6,18 +6,9 @@ import { useState } from "react";
 import { twMerge } from "tailwind-merge";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
-import { Sidenav } from "@/components/sidenav";
-
 export function Nav() {
   const pathname = usePathname();
-  const [isOpen, setOpen] = useState<boolean>();
 
-  const handleOpen = () => {
-    setOpen(true);
-  };
-  const handleClose = () => {
-    setOpen(false);
-  };
   return (
     <div>
       <div className="lg:absolute hidden lg:block top-2 right-5">
