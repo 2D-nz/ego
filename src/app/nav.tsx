@@ -90,7 +90,7 @@ export function Nav() {
               <Link href="/" className={twMerge("flex gap-1 ")}>
                 <button
                   className={twMerge(
-                    "h-12 w-[200px] px-5 mx-2 text-black border-black border-2  hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden flex items-center justify-center gap-2",
+                    "h-12 w-[180px] px-5 mx-2 text-black border-black border-2  hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden flex items-center justify-center gap-2",
                     pathname == "/" ? "bg-[#9723C9] text-white" : ""
                   )}
                 >
@@ -101,7 +101,7 @@ export function Nav() {
               <Link href="/about">
                 <button
                   className={twMerge(
-                    "h-12 w-[200px] mx-2 px-5 text-black border-black border-2 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden flex items-center justify-center gap-2",
+                    "h-12 w-[180px] mx-2 px-5 text-black border-black border-2 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden flex items-center justify-center gap-2",
                     pathname == "/about" ? "bg-[#9723C9] text-white" : ""
                   )}
                 >
@@ -111,7 +111,7 @@ export function Nav() {
               <Link href="/projects">
                 <button
                   className={twMerge(
-                    "h-12 w-[200px] mx-2 px-5 text-black border-black border-2 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden flex items-center justify-center gap-2",
+                    "h-12 w-[180px] mx-2 px-5 text-black border-black border-2 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden flex items-center justify-center gap-2",
                     pathname == "/projects" ? "bg-[#9723C9] text-white" : ""
                   )}
                 >
@@ -121,7 +121,7 @@ export function Nav() {
               <Link href="/blog">
                 <button
                   className={twMerge(
-                    "h-12 w-[200px] mx-2 px-5 text-black border-black border-2 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden flex items-center justify-center gap-2",
+                    "h-12 w-[180px] mx-2 px-5 text-black border-black border-2 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden flex items-center justify-center gap-2",
                     pathname == "/blog" ? "bg-[#9723C9] text-white" : ""
                   )}
                 >
@@ -131,7 +131,7 @@ export function Nav() {
               <Link href="/Currículo Denis PTBR.pdf">
                 <button
                   className={twMerge(
-                    "h-12 w-[200px] mx-2 px-5 text-black border-black border-2 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden flex items-center justify-center gap-2"
+                    "h-12 w-[180px] mx-2 px-5 text-black border-black border-2 hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden flex items-center justify-center gap-2"
                   )}
                 >
                   Currículo
