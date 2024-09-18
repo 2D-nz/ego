@@ -35,14 +35,12 @@ export default function Page(props: {
   params: { slug: string };
   searchParams: {};
 }) {
-  console.log(props);
   const slug = props.params.slug;
   const post = getPostContent(slug);
-  console.log(post);
   return (
     <div className=" flex justify-center w-screen mt-32">
-      <div className="absolute">
-        <article className=" prose py-5 px-10 text-black border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden">
+      <div className="absolute px-8">
+        <article className=" prose py-5 max-w-[1000px] px-10 text-black border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)] bg-white transition-all ease-out my-5 overflow-hidden md:prose-xl">
           <Markdown>{post.content}</Markdown>
         </article>
       </div>

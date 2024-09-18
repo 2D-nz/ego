@@ -17,7 +17,6 @@ export function Projectcard({
   };
   key: number;
 }) {
-  console.log(project);
   const formattedDate = format(project.date, "dd 'de' MMMM yyyy", {
     locale: ptBR,
   });
@@ -42,7 +41,7 @@ export function Projectcard({
         </div>
       </div>
 
-      <div className="flex gap-5">
+      <div className="flex flex-wrap gap-x-5">
         {tecs.map((tech: string, key: number) => {
           return (
             <p
