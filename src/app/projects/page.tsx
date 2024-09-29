@@ -11,8 +11,8 @@ export default function Page() {
       </div>
 
       <div className="grid  space-y-5 mt-5  ">
-        {projectsMetadata.map((project, key) => {
-          return <Projectcard project={project} key={key} />;
+        {projectsMetadata.map((project, index) => {
+          return <Projectcard project={project} key={index} />;
         })}
       </div>
     </div>
