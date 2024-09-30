@@ -6,7 +6,7 @@ import { BsGithub } from "react-icons/bs";
 
 export function Projectcard({
   project,
-  index,
+  key,
 }: {
   project: {
     date: string;
@@ -17,7 +17,7 @@ export function Projectcard({
     description: string;
     picture: string;
   };
-  index: number;
+  key: number;
 }) {
   const formattedDate = format(project.date, "dd 'de' MMMM yyyy", {
     locale: ptBR,
@@ -25,7 +25,7 @@ export function Projectcard({
   const tecs = project.tecs.split(",");
   return (
     <div
-      id={`project ${index}`}
+      id={`project ${key}`}
       className="w-[90%] lg:w-[50vw] mb-2  border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)]  bg-white text-black px-5 text-left transition-all ease-in py-2  "
     >
       <div className="flex gap-4">
