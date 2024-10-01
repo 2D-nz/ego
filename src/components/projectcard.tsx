@@ -26,21 +26,20 @@ export function Projectcard({
   return (
     <div
       id={`project ${key}`}
-      className="w-[90%] lg:w-[50vw] mb-2  border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)]  bg-white text-black px-5 text-left transition-all ease-in py-2  "
+      className="w-1/2 mb-2  border-black border-2 rounded-md hover:shadow-[8px_8px_0px_rgba(0,0,0,1)]  bg-white text-black  text-left transition-all ease-in   "
     >
-      <div className="flex gap-4">
+      <div className=" gap-4">
         <Image
           src={project.picture}
           height={40}
-          width={300}
+          width={400}
           alt="project image"
-          className="border-2 border-black rounded-md"
+          className="border-2 border-b-black w-full"
         />
-        <div>
+        <div className="px-5 py-4">
           <h1 className="text-2xl font-semibold">{project.title}</h1>
           <p className="">{formattedDate}</p>
-          <p className="pt-2">{project.description}</p>
-          <div className="flex gap-5">
+          <div className="flex gap-5 py-2">
             <Link href={project.live} target="_blank">
               <button className="border-black border-2 rounded-2xl px-9 bg-[#FFA6F6] hover:bg-[#fa8cef] active:bg-[#f774ea] w-10 h-10 flex items-center justify-center">
                 Live
@@ -64,6 +63,8 @@ export function Projectcard({
               );
             })}
           </div>
+
+          <p className="pt-2 h-24">{project.description} </p>
         </div>
       </div>
     </div>
